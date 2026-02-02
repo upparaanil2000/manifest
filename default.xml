@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="origin" fetch="https://github.com/upparaanil2000/" />
+  <default revision="main" remote="origin" sync-j="4" />
+
+  <project name="Demorepo1" path="Demorepo1" revision="main" />
+  <project name="Demorepo2" path="Demorepo2" revision="main" />
+  <project name="Demorepo3" path="Demorepo3" revision="main" />
+</manifest>
