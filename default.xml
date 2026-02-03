@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="origin" fetch="https://github.com/upparaanil2000/" />
-  <default revision="main" remote="origin" sync-j="4" />
+  <!-- Remote for Account 1 -->
+  <remote name="account1" fetch="https://github.com/upparaanil2000/" />
 
-  <project name="Demorepo1" path="Demorepo1" revision="main" />
-  <project name="Demorepo2" path="Demorepo2" revision="main" />
-  <project name="Demorepo3" path="Demorepo3" revision="main" />
+  <!-- Remote for Account 2 -->
+  <remote name="account2" fetch="https://github.com/upparaanil/" />
+
+  <!-- Default settings -->
+  <default revision="main" sync-j="4" />
+
+  <!-- Projects from Account 1 -->
+  <project name="Demorepo1" path="Demorepo1" remote="account1" revision="main" />
+  <project name="Demorepo2" path="Demorepo2" remote="account1" revision="main" />
+  <project name="Demorepo3" path="Demorepo3" remote="account1" revision="main" />
+
+  <!-- Projects from Account 2 -->
+  <project name="demo1_account2" path="demo1_account2" remote="account2" revision="main" />
+  <project name="demo2_account2" path="demo2_account2" remote="account2" revision="main" />
 </manifest>
