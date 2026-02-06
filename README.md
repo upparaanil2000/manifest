@@ -1,9 +1,7 @@
-```
+
 # Repository Setup and Cloning Guide
 
 This guide describes the prerequisites and step-by-step process to set up the **Repo tool** and clone required workspaces using either **WSL (recommended)** or **Git Bash on Windows**.
-
----
 
 ## 1. Prerequisites
 
