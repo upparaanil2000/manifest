@@ -80,17 +80,17 @@ cd ~  # Go to home directory
 ssh-keygen -t rsa -b 4096 -C "your_gitlab_email@rampgroup.com"
 ```
 
-**⚠️ IMPORTANT:** If you press **Enter continuously** (no passphrase), you may face authentication issues during `repo init`. Fix with:
-```bash
-git config --global user.email "your_gitlab_email@rampgroup.com"
-git config --global user.name "Your Name"
-```
-
 **EXACT Prompts:**
 ```
 Enter file: [PRESS ENTER] (default)
 Enter passphrase: [strong password OR ENTER]
 Enter same passphrase: [confirm]
+```
+
+**⚠️ IMPORTANT:** If you press **Enter continuously** (no passphrase), you may face authentication issues during `repo init`. Fix with:
+```bash
+git config --global user.email "your_gitlab_email@rampgroup.com"
+git config --global user.name "Your Name"
 ```
 
 **✅ Files Created:**
