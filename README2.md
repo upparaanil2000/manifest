@@ -182,9 +182,9 @@ ssh -T git@gitlab.rampgroup.com
 cd ~
 mkdir cluster_ws && cd cluster_ws
 repo init -u git@gitlab.rampgroup.com:sdv/v2/manifest.git -m cluster.xml
-repo sync -j$(nproc)     # FAST (15-45 min)
+repo sync -j$(nproc)     # FAST 
 # OR
-repo sync                # SLOW (2-3 hours)
+repo sync                # SLOW (then compare to  -j$(nproc))
 ```
 
 #### Infotainment Workspace
@@ -192,9 +192,9 @@ repo sync                # SLOW (2-3 hours)
 cd ~
 mkdir infotainment_ws && cd infotainment_ws
 repo init -u git@gitlab.rampgroup.com:sdv/v2/manifest.git -m infotainment.xml
-repo sync -j$(nproc)     # FAST (30-90 min)
+repo sync -j$(nproc)     # FAST 
 # OR
-repo sync                # SLOW (3-5 hours)
+repo sync                #SLOW (then compare to  -j$(nproc))
 ```
 
 ### Git Bash (Administrator)
@@ -207,6 +207,15 @@ repo sync -j8            # FAST
 repo sync                # SLOW
 ```
 
+#### Infotainment Workspace
+```bash
+cd ~
+mkdir infotainment_ws && cd infotainment_ws
+repo init -u git@gitlab.rampgroup.com:sdv/v2/manifest.git -m infotainment.xml
+repo sync -j8    # FAST 
+# OR
+repo sync                # SLOW (based on size and net speed)
+```
 ***
 
 ## File Locations
