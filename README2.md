@@ -6,7 +6,7 @@
 
 ## Prerequisites
 
-### Option A: WSL via VS Code (Recommended) ⭐
+### Option A: WSL via VS Code (Recommended) 
 
 **WSL provides full Linux environment ideal for Yocto builds and automotive source management.**
 
@@ -172,7 +172,7 @@ ssh -T git@gitlab.rampgroup.com
 
 ## Cloning Workspaces
 
-### WSL (VS Code Terminal) ⭐ RECOMMENDED
+### WSL (VS Code Terminal) 
 **VS Code → `Ctrl+Shift+\`` OR `Ctrl+Shift+P` → Connect to WSL**
 
 #### Cluster Workspace
