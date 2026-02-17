@@ -1,4 +1,4 @@
-# Repository Setup and Cloning Guide (WSL/VS or gitbash ) ⭐
+# Repository Setup and Cloning Guide
 
 > **Detailed step-by-step guide to set up the Repo tool and clone SDV automotive workspaces (`cluster_ws` and `infotainment_ws`) using WSL via VS Code (recommended) or Git Bash on Windows.**
 
@@ -61,7 +61,7 @@ repo --version  # ✅ Verify installation
 3. **Add to PATH**:
    - Search **"Environment Variables"**
    - **Edit System PATH** → **New** → Add `C:\Users\YourName\bin`
-4. [Install Python](https://python.org/) → python pakage manager**check "Add to PATH"**
+4. [Install Python](https://python.org/) → (python pakage manager)  **check "Add to PATH"**
 
 ***
 
@@ -135,7 +135,7 @@ cat ~/.ssh/id_rsa.pub
 ```bash
 cat ~/.ssh/id_rsa.pub | clip  # Copies to clipboard
 ```
-**Note:** SSH key may not display directly - use clipboard copy
+**Note:** SSH key may not display directly - use clipboard copy(automatically copy)
 
 ### 5. Add Public Key to GitLab
 1. [https://gitlab.rampgroup.com](https://gitlab.rampgroup.com) → **LOGIN**
