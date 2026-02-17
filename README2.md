@@ -74,6 +74,7 @@ repo --version  # ✅ Verify installation
 | **Git Bash** | Right-click → **"Git Bash as Administrator"** | Windows Git Bash |
 
 ### 2. Generate Private + Public Keys
+***Note*** you can use  only public key or private key based on your choice (when set up the ssh key)
 ```bash
 cd ~  # Go to home directory
 ssh-keygen -t rsa -b 4096 -C "your_gitlab_email@rampgroup.com"
@@ -111,6 +112,7 @@ chmod 644 ~/.ssh/id_rsa.pub
 ```
 
 **Git Bash (Windows):**
+***Note*** you can use  private key by using gitbash follwing this steps, otherwise skip.
 ```powershell
 # PowerShell as Administrator
 icacls $env:USERPROFILE\.ssh\id_rsa /inheritance:r
